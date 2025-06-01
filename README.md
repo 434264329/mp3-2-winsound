@@ -1,21 +1,10 @@
 ```markdown
 # 🎵 MP3-to-Winsound Converter
 
-<div align="center">
-  <img src="https://img.shields.io/badge/python-3.7%2B-blue" alt="Python Version">
-  <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
-  <img src="https://img.shields.io/badge/version-4.0-orange" alt="Version">
-</div>
-
 ## 🚀 项目概述
 
 将 MP3 音频文件转换为 Windows 系统蜂鸣音效 (`winsound.Beep`) 的 Python 工具，通过分析音频频谱特征，实现主板蜂鸣器播放音乐。
 
-```
-python
-# 示例输出代码
-winsound.Beep(440, 500)  # 播放 440Hz 频率，持续 500ms
-```
 
 ## ✨ 核心功能
 
