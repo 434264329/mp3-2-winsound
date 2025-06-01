@@ -1,10 +1,9 @@
-```markdown
+
 # 🎵 MP3-to-Winsound Converter
 
 ## 🚀 项目概述
 
 将 MP3 音频文件转换为 Windows 系统蜂鸣音效 (`winsound.Beep`) 的 Python 工具，通过分析音频频谱特征，实现主板蜂鸣器播放音乐。
-
 
 ## ✨ 核心功能
 
@@ -16,11 +15,26 @@
 | 智能优化 | 自动合并短音调 |
 
 ### 📊 可视化界面
-```diff
-+ 实时频谱曲线
-+ 音符持续时间分布
-+ 带时间戳的日志系统
+- ✅ 实时频谱曲线
+- ✅ 音符持续时间分布
+- ✅ 带时间戳的日志系统
+
+## 🛠️ 安装使用
+
+### 1. 安装依赖
+```bash
+pip install librosa numpy soundfile matplotlib
 ```
+
+### 2. 运行程序
+```bash
+python main.py
+```
+
+### 3. 界面操作
+1. 选择 MP3 文件
+2. 设置处理参数
+3. 生成播放代码
 
 ## 📦 版本演进
 
@@ -47,25 +61,11 @@ def process_dynamic():
 ```
 
 ### v2.0
-- 首个 GUI 版本
 - 实时进度条
-- 内存占用降低 30%
+- 动态频率处理
 
-## 🛠️ 安装使用
-
-1. 安装依赖：
-```bash
-pip install librosa numpy soundfile matplotlib
-```
-
-
-3. 界面操作
-```
-1. 选择 MP3 文件
-2. 设置处理参数
-3. 生成播放代码
-```
-
+### v1.0
+- 基础转换功能
 
 ## 📜 技术规格
 
@@ -75,5 +75,22 @@ pip install librosa numpy soundfile matplotlib
 | Librosa | ≥ 0.8.0 |
 | 内存 | ≥ 512MB |
 
-(由AI生成)
+## 📁 项目结构
+
+```
+mp3-2-winsound/
+├── main4.1/           # 最新版本
+│   ├── main.py        # 主程序
+│   ├── function.py    # 核心功能
+│   └── favicon.ico    # 图标
+├── main4.0.py         # v4.0版本
+├── main3.0.py         # v3.0版本
+├── main2.0.py         # v2.0版本
+├── main1.0.py         # v1.0版本
+└── README.md          # 说明文档
+```
+
+---
+
+*由AI生成*
 ```
