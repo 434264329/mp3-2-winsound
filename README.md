@@ -11,7 +11,8 @@
 
 将 MP3 音频文件转换为 Windows 系统蜂鸣音效 (`winsound.Beep`) 的 Python 工具，通过分析音频频谱特征，实现主板蜂鸣器播放音乐。
 
-```python
+```
+python
 # 示例输出代码
 winsound.Beep(440, 500)  # 播放 440Hz 频率，持续 500ms
 ```
@@ -85,15 +86,5 @@ pip install librosa numpy soundfile matplotlib
 | Librosa | ≥ 0.8.0 |
 | 内存 | ≥ 512MB |
 
-## 🌟 未来计划
-
-- [x] 基础音频转换 (v1.0)
-- [x] GUI 界面 (v2.0)
-- [ ] 和弦识别 (开发中)
-
----
-
-<div align="center">
-  <sub>⚠️ 注意：当前版本需使用英文路径</sub>
-</div>
+(由AI生成)
 ```
